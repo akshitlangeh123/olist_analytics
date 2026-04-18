@@ -3,9 +3,18 @@ version: 2
 models:
   - name: fact_orders
     columns:
-      - name: order_id
+      - name: order_item_key
         tests:
           - unique
+          - not_null
+      - name: order_id
+        tests:
+          - not_null
+      - name: product_key
+        tests:
+          - not_null
+      - name: seller_key
+        tests:
           - not_null
       - name: order_status
         tests:
