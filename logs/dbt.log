@@ -1,0 +1,78 @@
+[0m03:24:19.848137 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024F0E03A950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024F0E00E7D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024F0E00F0D0>]}
+
+
+============================== 03:24:19.851134 | 2f5b77b6-884e-4fc5-8aa8-28656d972010 ==============================
+[0m03:24:19.851134 [info ] [MainThread]: Running with dbt=1.11.6
+[0m03:24:19.852139 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\akshi\\.dbt', 'invocation_command': 'dbt init', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m03:24:32.113257 [debug] [MainThread]: Starter project path: C:\Users\akshi\olist_project\.venv\Lib\site-packages\dbt\include\starter_project
+[0m03:24:32.137256 [info ] [MainThread]: 
+Your new dbt project "olist_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m03:24:32.138262 [info ] [MainThread]: Setting up your profile.
+[0m03:24:35.839836 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m03:24:35.839836 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m03:24:35.839836 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m03:26:11.077485 [info ] [MainThread]: Profile olist_dbt written to C:\Users\akshi\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m03:26:11.078995 [debug] [MainThread]: Command `dbt init` succeeded at 03:26:11.078995 after 111.30 seconds
+[0m03:26:11.080004 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024F074E6410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024F0F05BB50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024F0F05BB90>]}
+[0m03:26:11.081028 [debug] [MainThread]: Flushing usage events
+[0m03:26:12.469973 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m03:26:20.348060 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000195978D2B10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000195978CBE90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019597591DD0>]}
+
+
+============================== 03:26:20.352060 | 6da7fa9a-c24e-4911-8f45-732be3fd2c9d ==============================
+[0m03:26:20.352060 [info ] [MainThread]: Running with dbt=1.11.6
+[0m03:26:20.352060 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\akshi\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt debug', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m03:26:20.363720 [info ] [MainThread]: dbt version: 1.11.6
+[0m03:26:20.364720 [info ] [MainThread]: python version: 3.11.9
+[0m03:26:20.364720 [info ] [MainThread]: python path: C:\Users\akshi\olist_project\.venv\Scripts\python.exe
+[0m03:26:20.364720 [info ] [MainThread]: os info: Windows-10-10.0.26200-SP0
+[0m03:26:20.923289 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m03:26:20.923289 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m03:26:20.924306 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m03:26:21.390521 [info ] [MainThread]: Using profiles dir at C:\Users\akshi\.dbt
+[0m03:26:21.390521 [info ] [MainThread]: Using profiles.yml file at C:\Users\akshi\.dbt\profiles.yml
+[0m03:26:21.391535 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\akshi\olist_project\olist_analytics\dbt_project.yml
+[0m03:26:21.391535 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m03:26:21.392560 [debug] [MainThread]: Command `dbt debug` failed at 03:26:21.392560 after 1.11 seconds
+[0m03:26:21.392560 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000195BC2E9D10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000195971D4D50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019597673990>]}
+[0m03:26:21.392560 [debug] [MainThread]: Flushing usage events
+[0m03:26:22.795444 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:33:44.086251 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F2ACE52E90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F2ACE52B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F2ACE52FD0>]}
+
+
+============================== 12:33:44.093761 | 622474b9-34ec-4b3a-80ec-0a2c7671ba85 ==============================
+[0m12:33:44.093761 [info ] [MainThread]: Running with dbt=1.11.6
+[0m12:33:44.094764 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\akshi\\.dbt', 'use_colors': 'True', 'invocation_command': 'dbt debug', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m12:33:44.120763 [info ] [MainThread]: dbt version: 1.11.6
+[0m12:33:44.120763 [info ] [MainThread]: python version: 3.11.9
+[0m12:33:44.121762 [info ] [MainThread]: python path: C:\Users\akshi\olist_project\.venv\Scripts\python.exe
+[0m12:33:44.122761 [info ] [MainThread]: os info: Windows-10-10.0.26200-SP0
+[0m12:33:45.149460 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m12:33:45.150462 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m12:33:45.151462 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m12:33:47.310855 [info ] [MainThread]: Using profiles dir at C:\Users\akshi\.dbt
+[0m12:33:47.311945 [info ] [MainThread]: Using profiles.yml file at C:\Users\akshi\.dbt\profiles.yml
+[0m12:33:47.312856 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\akshi\olist_project\olist_analytics\dbt_project.yml
+[0m12:33:47.313860 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m12:33:47.314896 [debug] [MainThread]: Command `dbt debug` failed at 12:33:47.314896 after 3.34 seconds
+[0m12:33:47.315896 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F2ADE9BF50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F2D1B489D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F2D157AA50>]}
+[0m12:33:47.315896 [debug] [MainThread]: Flushing usage events
+[0m12:33:48.981976 [debug] [MainThread]: An error was encountered while trying to flush usage events
