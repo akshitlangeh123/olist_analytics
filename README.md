@@ -117,12 +117,12 @@ Key metrics at a glance — total revenue, total orders, average order value, la
 
 
 ### Customer analytics
-Customer segmentation and retention analysis. Includes RFM segment distribution, revenue contribution by segment, orders per month, top 10 customers by lifetime spend, and review score distribution.
+Customer segmentation and retention analysis. Includes RFM segment distribution, orders per month, top 10 customers by lifetime spend, and review score distribution.
 <img width="2266" height="1332" alt="Screenshot 2026-04-20 021107" src="https://github.com/user-attachments/assets/3658e3b9-3ede-458f-a895-21435cf3f5ff" />
 
 
 ### Operations
-Delivery and seller performance. Includes late delivery rate by state, seller delivery speed vs customer satisfaction scatter, on-time vs late deliveries over time, delivery delay distribution, seller performance table, and average review score by seller tier.
+Delivery and seller performance. Includes late delivery rate by state, seller delivery speed vs customer satisfaction scatter, on-time vs late deliveries over time, delivery delay distribution, and average review score by seller tier.
 <img width="2255" height="1334" alt="Screenshot 2026-04-20 021121" src="https://github.com/user-attachments/assets/7403e119-9ead-444a-815e-8079ec00cf87" />
 
 
