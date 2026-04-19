@@ -144,16 +144,6 @@ These issues were discovered during dbt testing and are documented here rather t
 
 ---
 
-## Live demo
-
-To demonstrate the end-to-end pipeline working in real time, a new order is inserted directly into the bronze layer via Databricks SQL. The dbt pipeline is then re-run and Power BI is refreshed to show the metrics updating live.
-
-The demo scenario inserts a high-value order that arrives 15 days late and receives a 1-star review. After the pipeline re-runs, the late delivery rate increases and the average review score decreases on the Operations dashboard.
-
-A recording of this demo is included in `demo/pipeline_update_demo.mp4`.
-
----
-
 ## How to reproduce
 
 ### Prerequisites
