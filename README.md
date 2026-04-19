@@ -13,7 +13,6 @@ An end-to-end data engineering and analytics project built on the Brazilian Olis
 - [Data model](#data-model)
 - [Dashboard](#dashboard)
 - [Data quality findings](#data-quality-findings)
-- [Live demo](#live-demo)
 - [How to reproduce](#how-to-reproduce)
 - [Project structure](#project-structure)
 - [Skills demonstrated](#skills-demonstrated)
