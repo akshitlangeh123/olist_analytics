@@ -12,7 +12,6 @@ An end-to-end data engineering and analytics project built on the Brazilian Olis
 - [How it works](#how-it-works)
 - [Data model](#data-model)
 - [Dashboard](#dashboard)
-- [Data quality findings](#data-quality-findings)
 - [How to reproduce](#how-to-reproduce)
 - [Project structure](#project-structure)
 - [Skills demonstrated](#skills-demonstrated)
@@ -128,21 +127,6 @@ Delivery and seller performance. Includes late delivery rate by state, seller de
 
 ---
 
-## Data quality findings
-
-These issues were discovered during dbt testing and are documented here rather than silently handled.
-
-| Finding | Rows affected | Decision |
-|---|---|---|
-| Null review scores | 4,937 (5.0%) | Filtered in staging — customers opened the form but did not submit |
-| Null order IDs on reviews | 2,236 (2.3%) | Filtered in staging — orphaned records with no linked order |
-| Duplicate reviews per order | 547 orders | Deduplicated using ROW_NUMBER — kept the most recent review |
-| Customers with multiple addresses | 2,997 customers | Deduplicated using ROW_NUMBER — kept the most recent address |
-| One order with no payment record | 1 row | Downgraded to warning — genuine source data gap |
-| Invalid review score outside 1–5 | 1 row | Filtered in staging |
-
----
-
 ## How to reproduce
 
 ### Prerequisites
@@ -169,7 +153,7 @@ These issues were discovered during dbt testing and are documented here rather t
 
 ```
 olist-analytics/
-├── olist_analytics/
+├── olist_dbt/
 │   ├── models/
 │   │   ├── staging/          ← Silver layer — 9 staging models + sources + schema tests
 │   │   └── marts/            ← Gold layer — fact_orders + 4 dimensions + schema tests
