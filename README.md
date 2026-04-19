@@ -113,18 +113,18 @@ The gold layer is structured as a star schema with one fact table at the centre 
 
 ### Executive summary
 Key metrics at a glance — total revenue, total orders, average order value, late delivery rate, and average review score. Includes a monthly revenue and order volume trend, revenue by order status, revenue concentration by Brazilian state, and a payment method breakdown.
+<img width="2268" height="1329" alt="Screenshot 2026-04-20 021046" src="https://github.com/user-attachments/assets/6a1cdc2b-bd7f-441d-84ba-840a7402af41" />
 
-![Executive Summary](screenshots/Screenshot 2026-04-20 021046.png)
 
 ### Customer analytics
 Customer segmentation and retention analysis. Includes RFM segment distribution, revenue contribution by segment, orders per month, top 10 customers by lifetime spend, and review score distribution.
+<img width="2266" height="1332" alt="Screenshot 2026-04-20 021107" src="https://github.com/user-attachments/assets/3658e3b9-3ede-458f-a895-21435cf3f5ff" />
 
-![Customer Analytics](screenshots/Screenshot 2026-04-20 021107.png)
 
 ### Operations
 Delivery and seller performance. Includes late delivery rate by state, seller delivery speed vs customer satisfaction scatter, on-time vs late deliveries over time, delivery delay distribution, seller performance table, and average review score by seller tier.
+<img width="2255" height="1334" alt="Screenshot 2026-04-20 021121" src="https://github.com/user-attachments/assets/7403e119-9ead-444a-815e-8079ec00cf87" />
 
-![Operations](screenshots/Screenshot 2026-04-20 021121.png)
 
 ---
 
